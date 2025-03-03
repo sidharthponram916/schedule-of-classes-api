@@ -10,7 +10,8 @@ origins = [
         "http://localhost:3000",
         "https://tortuga-soc.vercel.app", 
         "https://tortugasoc.com", 
-        "https://www.tortugasoc.com"
+        "https://www.tortugasoc.com", 
+        "https://tortuga-soc-git-dev-sidharthponram916s-projects.vercel.app/"
     ]
     
 app.add_middleware(

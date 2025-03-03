@@ -1,26 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
 
-
-# async def fetch_professor_rating(session, name): 
-#     async with session.get(f'https://planetterp.com/api/v1/professor?name={name}', ssl=False) as response: 
-#         if response.status == 200: 
-#             data = await response.json()
-#             rating = data.get("average_rating", "N/A")
-#             slug = data.get("slug", "N/A")
-
-#             return { "name": name, "planet_terp_rating": rating, "slug": slug}
-#         else: 
-#             return { "name": name, "planet_terp_rating": "N/A", "slug": "N/A"}
-
-# async def fetch_all_ratings(instructor_names): 
-#     async with aiohttp.ClientSession() as session: 
-#         tasks = [fetch_professor_rating(session, name) for name in instructor_names]
-#         results = await asyncio.gather(*tasks)
-#     return { inst["name"]: inst for inst in results }
-
-
-
 def get_course_info(url):
     response = requests.get(url)
 
