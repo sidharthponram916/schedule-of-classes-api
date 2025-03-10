@@ -23,7 +23,7 @@ app.add_middleware(
 
 @app.get("/")
 def read_root(): 
-    return { "Message": "Welcome to the Schedule of Classes API"}
+    return { "Message": "Welcome to the UMD Schedule of Classes API"}
 
 @app.get("/api/get-courses")
 def get_course_information(name: str, date: str = "202508"):
