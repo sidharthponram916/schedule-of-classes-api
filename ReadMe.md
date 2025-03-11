@@ -3,7 +3,7 @@ This is a project that pulls data from the University of Maryland's Schedule of 
 
 **API Endpoint**
 
--  `/api/courses`: Default Endpoint
+-  `/api/get-courses`: Default Endpoint
 
 **Query**
 
