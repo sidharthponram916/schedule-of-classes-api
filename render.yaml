@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: schedule-of-classes-api
+    runtime: node
+    repo: https://github.com/sidharthponram916/schedule-of-classes-api
+    branch: main
+    plan: free
+    buildCommand: npm install
+    startCommand: npm run start
+    envVars:
+      - key: NODE_ENV
+        value: production
