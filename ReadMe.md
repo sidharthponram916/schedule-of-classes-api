@@ -10,7 +10,7 @@ This is a project that pulls data from the University of Maryland's Schedule of 
 - `?name=`: Course Name 
 - `?date=`: Course Catalog Date
 
-**Sample API Response from** `/api?name=BMGT110`
+**Sample API Response from** `/api/get-courses?name=BMGT110`
 ```
 [
   {
